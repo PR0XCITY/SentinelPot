@@ -1,0 +1,32 @@
+============================================================
+SentinelPot Honeypot Security Analysis Report
+============================================================
+
+Session ID : 233737fd0ab5
+Attacker IP : 127.0.0.1
+Country     : Unknown
+Commands Executed:
+  - uname -a
+  - id
+  - ls
+  - http://google.com/
+  - wget https://google.com/
+  - ping https://google.com/
+  - ping google.com
+  - fget
+  - exit
+
+Failed Logins : 0
+Threat Level : MEDIUM
+Threat Score : 7
+
+Indicators:
+ * Reconnaissance command detected
+ * Possible malware download
+
+------------------------------------------------------------
+
+============================================================
+Attack Summary
+============================================================
+Total Sessions: 1
